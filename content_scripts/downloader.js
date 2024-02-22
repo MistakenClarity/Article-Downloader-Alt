@@ -191,16 +191,9 @@
         const title = document.querySelector("meta[property='og:title']").getAttribute("content");
         var authors = [];
         authors.push(document.querySelector("div.entry__byline__author > a > span").innerText);
-        // console.log(authors)
-        // aEls.forEach(author => {
-        //     authors.push(author.innerText);
-        // });
         const pDate = document.querySelector("meta[property='article:published_time']").getAttribute("content").slice(0, 10);
         const tDate = new Date().toJSON().slice(0, 10);
         paras = document.querySelectorAll("div.primary-cli > p");
-        // paras.forEach(p => {
-        //     console.log(p.innerText);
-        // })
         publisher = 'Huffpost';
         useHuffTemplate(title, authors, pDate, tDate, paras, publisher);
     }
@@ -208,7 +201,6 @@
 
 
     //MIDDLE EAST
-
     // New Line Mag (jan 2024)
     function newLineMagParser() {
         const title = document.querySelector("meta[property='og:title']").getAttribute("content");

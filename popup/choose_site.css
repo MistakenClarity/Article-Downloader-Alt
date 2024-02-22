@@ -1,0 +1,32 @@
+form {
+    background-color: #E5E1DA;
+    color: #E5E1DA;
+}
+
+button {
+    color: black;
+}
+
+body {
+    background-color: white;
+}
+
+#popup-content {
+    background-color: white;
+}
+
+#popup-content button {
+    color: white;
+    background-color: #31304D;
+    border-radius: 5px;
+    padding: 4px;
+    border: 2px solid #31304D;
+}
+
+#popup-content button:hover {
+    color: #31304D;
+    background-color: white;
+    border: 2px solid #31304D;
+    border-radius: 4px;
+    cursor: pointer;
+}
